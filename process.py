@@ -19,7 +19,7 @@ try:
     from imatools.common import itktools as itku
     from imatools.common import ioutils as iou
 
-catch Exception as e:
+except ImportError as e:
     print("Error: ", e)
 
 import numpy as np
